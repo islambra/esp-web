@@ -1,0 +1,27 @@
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 1em;
+  box-sizing: border-box; /* Important for padding and width to work together */
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.good-select {
+  border-color: #2ecc71; /* Green border for 'good' */
+}
+
+.bad-select {
+  border-color: #e74c3c; /* Red border for 'bad' */
+}
